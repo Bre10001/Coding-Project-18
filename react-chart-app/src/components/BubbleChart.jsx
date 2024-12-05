@@ -4,7 +4,7 @@ import React from "react";
 import ChartComponent from "./ChartComponent.jsx";
 
 //  Functional component to render a bubble chart.
-const BarChart = ({ data }) => {
+const BubbleChart = ({ data }) => {
     const bubbleChartData = {
       labels: data.months,
       datasets: [
